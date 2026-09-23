@@ -1,9 +1,20 @@
+# TeX build output
 *.aux
-*.log
-*.out
-*.toc
 *.bbl
 *.blg
 *.fdb_latexmk
 *.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.out.backup
+*.pdf
 *.synctex.gz
+*.toc
