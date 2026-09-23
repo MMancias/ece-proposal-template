@@ -115,11 +115,11 @@
   \begin{table}[htbp]
   \centering
   \small
-  \caption{Risk Register, Triggers, Mitigation Strategies, and Alternative Paths}
+  \caption{Risk Register, Triggers, Mitigation Strategies, and Alternative Paths} % can modify these for table caption
   \label{tab:risk_register}
-  \begin{tabularx}{\textwidth}{>{\bfseries}l X X X}
+  \begin{tabularx}{\textwidth}{>{\bfseries}l X X X} % number of columns and their alignment can be modified here
   \toprule
-  Risk & Observable Trigger & Mitigation Strategy & Alternative Path \\
+  Risk & Observable Trigger & Mitigation Strategy & Alternative Path \\ % can modify these for table headers
   \midrule
   \BODY
   \bottomrule
