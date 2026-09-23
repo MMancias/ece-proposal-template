@@ -1,0 +1,105 @@
+% !TEX root = main.tex
+%%% =========================================================================
+%%% Starter Template for ECE Ph.D. Proposal
+%%% =========================================================================
+
+\documentclass{eceproposal}
+
+% --- Document Metadata ---
+\title{Proposal Title Placeholder}
+\author{M. Bronco}
+\advisor{Prof. KS}
+\department{Department of Electrical and Computer Engineering}
+\institution{Boise State University}
+\proposaldate{December 2026}
+
+\begin{document}
+
+% =========================================================================
+% STANDALONE 1-PAGE PROJECT SUMMARY
+% =========================================================================
+\begin{projectsummary}
+
+\section*{Project Summary}
+
+\summaryoverview{
+  Provide a concise overview of the research problem, state of knowledge, central gap, 
+  hypothesis or design claim, objectives, and general methodology.
+}
+
+\summaryintellectualmerit{
+  Detail the primary intellectual contributions of the proposed dissertation research, 
+  distinguishing novel theoretical or engineering findings from standard deliverables.
+}
+
+\summarybroadersignificance{
+  Explain why resolving this problem matters within ECE and its broader societal, 
+  technological, or economic impacts.
+}
+
+\end{projectsummary}
+
+
+% =========================================================================
+% PROJECT DESCRIPTION (10–12 Pages Target)
+% =========================================================================
+
+\maketitle
+
+\section{Motivation and Significance}
+Define the consequential scientific or technological problem and the context in which it occurs. 
+Explain why resolving the problem matters and establish the boundaries of the proposed dissertation.
+
+Based on results by Bronco \textit{et al} \cite{ece_2026_publication},...
+
+\section{State of Knowledge and Research Gap}
+Synthesize the most relevant literature by claims, mechanisms, approaches, or limitations. 
+Establish what is known, identify where evidence is incomplete or conflicting, and define the specific 
+unresolved gap addressed by the dissertation.
+
+\section{Central Question, Hypothesis/Design Claim, and Objectives}
+State the organizing research question or engineering challenge, central hypothesis or design claim, 
+and two to four coherent research objectives. 
+Explain how completing the objectives will address the central gap.
+
+\begin{objectiveslist}
+    \item \textbf{Develop...}
+    \item \textbf{Validate...}
+    \item \textbf{Implement...}
+\end{objectiveslist}
+
+\section{Preliminary Work and Readiness}
+Present preliminary evidence that establishes feasibility, validates a method, motivates a design decision, or 
+refines the proposed direction. Identify limitations and distinguish the student's contributions from those of collaborators.
+
+\section{Research Plan}
+For each objective, present the rationale, research question or claim, methods, variables and controls or baselines, 
+analysis, uncertainty, success criteria, expected outcomes, risks, alternatives, and objective-level deliverables.
+
+\subsection{Objective 1 Methodology}
+Detail research activities and experimental design...
+
+\subsection{Objective 2 Methodology}
+Detail frameworks and theoretical modeling...
+
+\section{Integration and Contributions}
+Explain how the objectives collectively address the central gap. Distinguish research products—such as devices, 
+algorithms, datasets, models, and publications—from the dissertation's enduring intellectual contribution.
+
+\section{Timeline, Risks, and Completion Plan}
+Present a two- to three-year timeline containing research milestones, dependencies, decision points, analysis, 
+writing, and dissemination. Identify consequential risks, observable triggers, mitigation strategies, and alternative paths.
+
+\begin{riskregister}
+High edge latency & Processing time > 15ms & Optimize matrix kernels in FPGA & Fallback to lower-order estimation \\
+Data dropouts & Packet loss > 5\% & Implement local Kalman prediction & Use historical state extrapolation \\
+\end{riskregister}
+
+% =========================================================================
+% REFERENCES CITED
+% =========================================================================
+\newpage
+\bibliographystyle{IEEEtran}
+\bibliography{ProposalExam}
+
+\end{document}
