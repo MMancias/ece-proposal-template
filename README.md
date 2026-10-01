@@ -90,7 +90,7 @@ Run all four commands after changing citations or bibliography entries. For ordi
 Set the cover information in the document preamble, before `\begin{document}`:
 
 ```latex
-	itle{Your Proposal Title}
+\title{Your Proposal Title}
 \author{Your Name}
 \advisor{Advisor Name}
 \department{Department of Electrical and Computer Engineering}
